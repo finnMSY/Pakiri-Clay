@@ -72,7 +72,7 @@ if (isset($_SESSION['account'])) {
       <a href="<?php print($homeLink) ?>" id="logo">Logo</a>
       <a href="<?php print($storeLink) ?>">Store</a>
       <a href="<?php print($contactLink) ?>">Contact</a>
-      <a href="<?php print($aboutLink) ?>">Bookings</a>
+      <a href="">Bookings</a>
       <a href="cart.php" style="float: right;"><img src="Images/cart.png" width="18"></a>
       <div class="dropdown" style="float: right;">
         <?php 
